@@ -8,7 +8,7 @@ public class Main {
 
         while (i <= 6) {
             for (int j = 1; j <= 21; j += i) {
-                System.out.println("Num is " + i + " , sum is " + j);
+                System.out.println(i+ ") "+"Num is " + i + ", sum is " + j);
                 i++;
             }
             System.out.println("----------------------");
